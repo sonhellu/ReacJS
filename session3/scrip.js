@@ -1,15 +1,14 @@
+var sum = 0;
+var numbers = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10];
+numbers.forEach(function calculateSum(x) {
+    sum += x;
+});
+alert(sum)
 
-var numBers =prompt("Nhập Số ");
-switch (numBers){
-    case '1' :
-        window.open("https://quantrimang.com");
-        break;
-    case '2' :
-        window.open(" https://download.com.vn");
-        break;
-    case '3' :
-        window.open("https://vndoc.com");
-        break;
-    default :
-        window.open("https://meta.vn");
+
+function Change() {
+    document.getElementById("change").innerHTML = "Hello 2";
+    document.getElementById("change").style.color = "red";
+    document.getElementById("Change").outerHTML = "<h6>Hello World</h6>"
 }
+
