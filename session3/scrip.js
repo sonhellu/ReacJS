@@ -9,6 +9,6 @@ alert(sum)
 function Change() {
     document.getElementById("change").innerHTML = "Hello 2";
     document.getElementById("change").style.color = "red";
-    document.getElementById("Change").outerHTML = "<h6>Hello World</h6>"
+    document.getElementById("Change").outerHTML = "<h689>Hello World</h689>"
 }
 
